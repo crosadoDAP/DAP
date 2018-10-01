@@ -5,8 +5,8 @@ import org.apache.spark.sql.{SaveMode, SparkSession}
 
 /**
   * This object will read bson file and create parquet file at target location.
-  *
-  * @version 1.1
+  * File has been cleared for public use
+  * @version 1.2
   * @author Charlie Rosado 08/06/2018
   */
 
@@ -40,11 +40,6 @@ object HuluDaily {
 
     val rawData = spark.read.option("header", "true").option("delimiter", "|").csv(input_path)
     val dataFrame = rawData
-      //file name are - Start_End_Subscriber_Report_Cinemax_20180530 , SPOCK_Cinemax_2018-03-31
-      //   .../yr=2018/mo=06/dt=2018-06-07/cinemax_daily_consumption-20180607.txt
-      //   .../yr=2018/mo=06/dt=2018-06-07/hbo_daily_consumption-20180607.txt
-      //take the last two of file name and use them as source and partition. we store these 2 values as temporary to
-      //avoid unnecessary calculation size, access index and allocate memory
       .withColumn("last_2_parts_of_filename_tmp_col", {
       val file_name_parts = split(input_file_name(), "/")
       val file_name_only = file_name_parts(size(file_name_parts) - 1)
