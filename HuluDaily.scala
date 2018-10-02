@@ -9,6 +9,7 @@ import org.apache.spark.sql.{SaveMode, SparkSession}
   * 
   * @version 1.2
   * @author Charlie Rosado 08/06/2018
+  * Licensed under Creative Commons CC BY, CC BY-SA, CC0
   */
 
 /* Hulu data processing -
