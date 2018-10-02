@@ -5,7 +5,8 @@ import org.apache.spark.sql.{SaveMode, SparkSession}
 
 /**
   * This object will read bson file and create parquet file at target location.
-  * File has been cleared for public use
+  * File has been cleared for public display
+  * 
   * @version 1.2
   * @author Charlie Rosado 08/06/2018
   */
