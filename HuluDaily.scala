@@ -77,7 +77,8 @@ object HuluDaily {
   /**
     * Check main argument. System will exit if given input is not provided.
     *
-    * @param args
+    * @parameters string
+    * @param 
     * Array[String]
     */
   def checkArguments(args: Array[String]) = {
