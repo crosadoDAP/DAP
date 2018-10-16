@@ -4,5 +4,7 @@ Crosado/DAP
 
 For use in public (no proprietary code will be found here)
 
-The code found herein has been cleared for anyone to use.
+The code found herein has been cleared for anyone to see and re-use when available.
+
+Typical code is removed once it has been proven to work in production.
 
