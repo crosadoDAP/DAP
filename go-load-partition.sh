@@ -8,7 +8,7 @@ mo=08
 
 for sub in "${arr[@]}"
 do
-    for i in {01..30}
+    for i in {01..31}
     do
       airflow test $sub $subtask $yr-$mo-$i
     done
