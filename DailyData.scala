@@ -13,6 +13,7 @@
 * The process herein scans the filename, identifies whether HBO or Cinemax and then places the value in a new column.
 * Same rule is going to apply for partitioning.
 * This file impacts a data set which represents Hulu_User_Daily
+* 
 */
 
 
