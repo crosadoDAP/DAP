@@ -8,3 +8,5 @@ The code found herein has been cleared for anyone to see and re-use when availab
 
 Typical code is removed once it has been proven to work in production.
 
+Reach out if interested in more in depth Spark conversations
+
