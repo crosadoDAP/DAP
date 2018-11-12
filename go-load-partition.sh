@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 #this is a loop to re-run load partition backfill
+# sample testing
+# to be removed once confirmed to work in production
 
 declare -a arr=("adobe_analytics_cinemax_v1")
 subtask='load_partition'
