@@ -3,3 +3,5 @@
 #should be erased after code is confirmed
 #Feel free to use any code which remains
 #no proprietary code to be found here
+
+for loop
