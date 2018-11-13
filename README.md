@@ -10,5 +10,7 @@ Typical code is removed once it has been proven to work in production.
 
 Reach out if interested in more in depth Spark conversations
 
+Or if you would like to discuss the utility of de-centralized systems
+
 Thanks
 
