@@ -14,6 +14,7 @@
 * Same rule is going to apply for partitioning.
 * This file impacts a data set which represents Hulu_User_Daily
 * 
+* Testing area only, once code is confirmed to work and merged into proprietary repository, it is deleted from here.
 */
 
 
